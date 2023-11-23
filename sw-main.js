@@ -5,7 +5,7 @@ const CACHE_NAME = 'cache-v1';
 // The files we want to cache
 const resourceList = [
     '/',
-    'index.html',
+    'index.html'
 ];
 
 self.addEventListener('install', event => {
